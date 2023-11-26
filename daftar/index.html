@@ -10,13 +10,13 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="../style/daftar.css" />
     <!-- CDN fontawesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="../style/login.css" />
-    <title>CreateWebMe - Login</title>
+    <title>CreateWebMe - Daftar</title>
   </head>
   <body>
     <nav
@@ -83,13 +83,27 @@
     <div class="container-fluid banner">
       <div class="container">
         <form class="mx-auto">
-          <h4 class="text-center">Login</h4>
+          <h4 class="text-center">Daftar</h4>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">User Name</label>
+            <label for="exampleInputEmail1" class="form-label"
+              >Nama Depan</label
+            >
             <input
               type="email"
               class="form-control"
-              id="input_text"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              style="background-color: transparent; color: white"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Nama Belakang</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
               aria-describedby="emailHelp"
               style="background-color: transparent; color: white"
             />
@@ -101,16 +115,20 @@
             <input
               type="password"
               class="form-control"
-              id="input_password"
+              id="exampleInputPassword1"
               style="background-color: transparent; color: white"
             />
-            <a href="#" style="color: white; text-decoration: none"
-              >Lupa password</a
+            <a
+              href="#"
+              class="form-text"
+              style="color: white; text-decoration: none"
             >
+              Sudah Punya akun?
+            </a>
           </div>
 
           <a href="../index.html" class="btn btn-danger" style="width: 100%">
-            login
+            Daftar
           </a>
         </form>
       </div>

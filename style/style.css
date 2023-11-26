@@ -1,80 +1,56 @@
-.me {
-  color: #00a6ff;
-  text-shadow: 1px 4px 5px rgba(0, 0, 0, 0.2);
-}
-
-.nav-container {
-  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.138);
-  background-color: rgba(255, 255, 255, 0.945);
-}
-
-.btn-toggle {
-  text-decoration: none;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin: 5px;
-  border-radius: 5px;
-  border: 1px solid #00a6ff;
-  color: #00a6ff;
-  font-size: 14px;
-}
-
-.btn-toggle-login {
-  text-decoration: none;
-  background-color: #00a6ff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin: 5px;
-  border-radius: 5px;
-  color: white;
-  transition: 0.3s;
-  font-size: 14px;
-}
-
-.btn-toggle-login:hover {
-  text-decoration: none;
-  background-color: rgb(0, 204, 255);
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin: 5px;
-  border-radius: 5px;
-  color: white;
-  transition: 0.3s;
-}
-
-.btn-toggle:hover {
-  text-decoration: none;
-  background-color: #00a6ff;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-right: 20px;
-  padding-left: 20px;
-  margin: 5px;
-  border-radius: 5px;
-  color: white;
-  transition: 0.3s;
-}
-
-.img-bg {
-  background-image: url(../img/background.jpg);
-  background-size: cover;
-}
-
-.section,
-h1,
-h4,
-p {
-  text-shadow: 1px 1px 1px 1px;
-}
-
-.jumbotron {
-  background-image: url(../img/background.jpg);
+.banner {
+  background-image: url(../img/bg-small.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  color: #fff;
+}
+
+.lingkaran {
+  display: inline-block;
+  border-radius: 50%;
+  width: 150px;
+  margin: auto;
+  height: 150px;
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.lingkaran i {
+  position: relative;
+  top: 30px;
+}
+
+.crop-img {
+  object-fit: cover;
+}
+
+.tim {
+  width: 250px;
+  border: 10px solid #ccc;
+}
+
+a.social {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #333;
+  line-height: 40px;
+}
+
+.client img {
+  height: auto;
+  max-height: 50px;
+}
+
+.kontak {
+  background: url("https://wallpaperaccess.com/full/1867010.jpg") no-repeat
+    center center;
+  background-size: cover;
+  padding-bottom: 20%;
+  padding-top: 20%;
+  color: #fff;
 }
